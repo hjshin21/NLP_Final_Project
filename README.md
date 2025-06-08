@@ -121,18 +121,22 @@ DO_SUBMISSION = True
 
 ## 📦 Outputs
 
-defaultproject_report.pdf — Final report (6~8 pages, ACL style)
-defaultproject_codes.zip — All code + README
-defaultproject_supplementaries.zip — Pretrained + fine-tuned model weights
-Please ensure your code runs successfully in main.ipynb.
+- `defaultproject_report.pdf` — Final report (6~8 pages, ACL style)  
+- `defaultproject_codes.zip` — All code + README  
+- `defaultproject_supplementaries.zip` — Pretrained + fine-tuned model weights  
+
+> ✅ Please ensure your code runs successfully in `main.ipynb`.
+
+---
 
 ## 📚 Reference Papers
 
-Transformer: Vaswani et al., 2017
-RoPE: Su et al., 2023
-GQA: Ainslie et al., 2023
-RMSNorm: Zhang & Sennrich, 2019
-RAG: Lewis et al., 2020
-Self-RAG: Asai et al., 2024
-PCW: Ratner et al., 2023
-CoT Prompting: Wei et al., 2022
+- **Transformer**: Vaswani et al., 2017  
+- **RoPE**: Su et al., 2023  
+- **GQA**: Ainslie et al., 2023  
+- **RMSNorm**: Zhang & Sennrich, 2019  
+- **RAG**: Lewis et al., 2020  
+- **Self-RAG**: Asai et al., 2024  
+- **PCW**: Ratner et al., 2023  
+- **CoT Prompting**: Wei et al., 2022
+
