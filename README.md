@@ -45,6 +45,7 @@ The project consists of two main components:
 ---
 
 ## 📁 Project Structure
+```
 .
 ├── model/
 │   ├── model.py               # GPT-small model with RoPE, GQA, RMSNorm
@@ -57,6 +58,7 @@ The project consists of two main components:
 ├── main.ipynb                 # Main notebook for pretraining, finetuning, RAG
 ├── README.md                  # This file
 └── requirements.txt           # Dependencies (e.g., torch, transformers, pyserini)
+```
 
 ## 🚀 How to Run
 
@@ -115,15 +117,16 @@ DO_FINETUNE_CF = False
 DO_FINETUNE_RAG = False
 DO_ZEROSHOT_RAG = False
 DO_SUBMISSION = True
+```
 
-📦 Outputs
+## 📦 Outputs
 
 defaultproject_report.pdf — Final report (6~8 pages, ACL style)
 defaultproject_codes.zip — All code + README
 defaultproject_supplementaries.zip — Pretrained + fine-tuned model weights
 Please ensure your code runs successfully in main.ipynb.
 
-📚 Reference Papers
+## 📚 Reference Papers
 
 Transformer: Vaswani et al., 2017
 RoPE: Su et al., 2023
